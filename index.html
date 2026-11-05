@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kinjal Parmar — Video director, writer and campaign strategist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--ink:#1f1a14;--mute:#756c60;--line:#eee9df;--soft:#fdf8ec;--sun:#e9a50c;--sun-d:#8a5a00;--core:#4a2f12;--petal:#f3b72a;--petal2:#e08f0a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:#fff;color:var(--ink);font:400 16px/1.7 'Instrument Sans',system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:400;line-height:1.1;margin:0}
+a{color:inherit}
+.wrap{max-width:1120px;margin:auto;padding:0 28px}
+.sf{position:absolute;pointer-events:none}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font-family:'Fraunces',serif;font-weight:500;font-size:1.1rem}
+nav div{display:flex;gap:28px;font-size:.92rem}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.hero{position:relative;overflow:hidden;padding:110px 0 90px}
+.hero .sf{width:420px;height:420px;right:-90px;top:20px;animation:spin 120s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.hero .sf{animation:none}}
+.hero .in{position:relative;max-width:660px}
+.hero h1{font-size:clamp(3.4rem,9vw,6.6rem);font-weight:300;letter-spacing:-.025em}
+.hero p{margin:26px 0 0;font-size:1.15rem;color:var(--mute);max-width:520px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+.btn{padding:13px 26px;border-radius:999px;border:1px solid var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
+.btn.p{background:var(--ink);color:#fff}
+.btn:focus-visible,.arr:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+section{padding:84px 0}
+.tint{background:var(--soft)}
+.h2{font-size:clamp(1.9rem,4vw,2.8rem);max-width:700px}
+.lede{color:var(--mute);max-width:600px;margin:14px 0 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:36px;max-width:900px}
+.two p{margin:0}
+.caps{display:grid;grid-template-columns:repeat(4,1fr);gap:36px 32px;margin-top:48px}
+.cap h3{font-size:1.2rem;margin-bottom:8px}
+.cap h3::before{content:"";display:block;width:28px;height:3px;background:var(--sun);border-radius:2px;margin-bottom:14px}
+.cap p{margin:0;color:var(--mute);font-size:.93rem;line-height:1.6}
+.group{margin-top:56px}
+.group>h3{font-size:1.5rem}
+.group>p{margin:6px 0 0;color:var(--mute);font-size:.95rem}
+.brand{margin-top:34px}
+.bh{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.bh h4{font:500 1.35rem 'Fraunces',serif;margin:0}
+.bh p{margin:3px 0 0;color:var(--mute);font-size:.9rem;max-width:560px}
+.arrows{display:none}
+.arr{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;font-size:1.1rem;cursor:pointer;color:var(--ink)}
+.arr:hover{border-color:var(--ink)}
+.rail{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;margin-top:18px}.roles{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}.roles span{font-size:.8rem;border:1px solid var(--line);padding:3px 11px;border-radius:999px;color:var(--mute)}
+.card{min-width:0}
+.stage{position:relative;aspect-ratio:9/15;border-radius:16px;overflow:hidden;background:#f6f3ec;border:1px solid var(--line)}
+.stage.yt{aspect-ratio:16/10;flex-basis:480px}
+.card.yt{grid-column:span 2}
+.stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
+.tag{display:inline-block;font-size:.78rem;font-weight:600;color:var(--sun-d);background:var(--soft);border:1px solid #f0dca0;padding:2px 10px;border-radius:999px;margin-left:10px;vertical-align:middle;font-family:'Instrument Sans',sans-serif}
+.brand:not(.own) .tag{display:none}
+.reel{margin-top:56px;padding:24px 28px;border:1px solid var(--line);border-radius:16px;color:var(--mute);font-size:.95rem}
+.reel b{color:var(--ink);font-weight:600}
+.row{display:grid;grid-template-columns:180px 1fr;gap:28px;padding:26px 0;border-top:1px solid #f0dca0}
+.row:last-of-type{border-bottom:1px solid #f0dca0}
+.row .d{color:var(--sun-d);font-weight:600;font-size:.9rem}
+.row h3{font-size:1.4rem}.row em{font-style:normal;color:var(--mute);font-size:.93rem}
+.row ul{margin:10px 0 0;padding-left:18px;color:var(--mute);font-size:.95rem}.row li{margin:3px 0}
+.exp{margin-top:36px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
+.tools span{background:#fff;border:1px solid #f0dca0;padding:7px 15px;border-radius:999px;font-size:.88rem}
+.contact{position:relative;overflow:hidden;text-align:left}
+.contact .sf{width:340px;height:340px;right:-80px;top:-30px}
+.contact .in{position:relative}
+.contact h2{font-size:clamp(2rem,5vw,3.4rem);max-width:600px}
+.contact .l{margin-top:28px;display:flex;gap:10px 32px;flex-wrap:wrap;font-size:1.05rem}
+.contact a{text-underline-offset:4px;text-decoration-color:var(--sun)}
+footer{padding:28px 0;border-top:1px solid var(--line);color:var(--mute);font-size:.88rem}
+@media (max-width:860px){.caps{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr;gap:16px}}
+@media (max-width:640px){.wrap{padding:0 20px}section{padding:60px 0}.hero{padding:64px 0 56px}.hero .sf{width:260px;height:260px;right:-100px;top:-30px;opacity:.55}nav div{gap:16px;font-size:.85rem}.caps{grid-template-columns:1fr;gap:28px}.rail{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin-right:-20px;padding-right:20px;padding-bottom:12px}.card{flex:0 0 78%;scroll-snap-align:start}.card.yt{flex:0 0 88%;grid-column:auto}.row{grid-template-columns:1fr;gap:4px}.bh p{font-size:.85rem}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Kinjal Parmar</b><div><a href="#about">About</a><a href="#work">Work</a><a href="#path">Experience</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+  <span class="sf" data-sf></span>
+  <div class="wrap"><div class="in">
+    <h1>Kinjal Parmar</h1>
+    <p>Video director, scriptwriter, storyboard artist and campaign strategist. I take brands from the first idea to the final frame.</p>
+    <div class="cta"><a class="btn p" href="#work">Watch the work</a><a class="btn" href="#contact">Start a project</a></div>
+  </div></div>
+</header>
+
+<section id="about" class="tint"><div class="wrap">
+  <h2 class="h2">Not just an editor. I shape the whole idea.</h2>
+  <div class="two">
+    <p>I’m involved in every stage of a piece of content. I start by understanding the brand and its audience, then write the script, plan the shoot, build the storyboard, direct on set, edit and plan how the content reaches people.</p>
+    <p>My work spans live-action production, corporate AV, theatre ads, brand reels, Meta lead-generation creatives and AI-generated video, across food, construction, real estate, dental care, education, textiles and industrial inks.</p>
+  </div>
+  <div class="caps">
+    <div class="cap"><h3>Creative direction</h3><p>Moodboards, shot lists and on-set direction that keep the look consistent.</p></div>
+    <div class="cap"><h3>Scriptwriting</h3><p>Scripts, hooks and captions in each brand’s own voice.</p></div>
+    <div class="cap"><h3>Storyboarding</h3><p>Frame-by-frame planning before the camera rolls.</p></div>
+    <div class="cap"><h3>Campaign strategy</h3><p>Concept, positioning and content planning from A to Z.</p></div>
+    <div class="cap"><h3>Digital marketing</h3><p>Meta Ads and lead-generation creatives built around the audience.</p></div>
+    <div class="cap"><h3>Video production</h3><p>Corporate AV, theatre ads, green screen, motion graphics and VFX.</p></div>
+    <div class="cap"><h3>AI video</h3><p>Generative tools used with real direction for scenes and jingles.</p></div>
+    <div class="cap"><h3>Coordination</h3><p>Briefs, assets, clients and teams aligned through delivery.</p></div>
+  </div>
+</div></section>
+
+<section id="work"><div class="wrap">
+  <h2 class="h2">Selected work</h2>
+  <p class="lede">Tap any video to play it here on the page.</p>
+  <div class="group"><h3>Created entirely by me</h3><p>Every single video on these five profiles was made by me.</p><div id="g1"></div></div>
+  <div class="group"><h3>More campaigns</h3><p>Concept, scripts, shoots and edits across these brands.</p><div id="g2"></div></div>
+  <div class="reel"><b>Also on my reel:</b> corporate AV for SETCO Inks, theatre ads for Liberty Rainwear and Iranis Dental, and live green-screen production for Textile Times. Full films available on request.</div>
+</div></section>
+
+<section id="path" class="tint"><div class="wrap">
+  <h2 class="h2">Experience</h2>
+  <div class="exp">
+    <div class="row"><div class="d">Feb 2025 – Present<br>Valsad</div><div><h3>Infinizzo</h3><em>Video editor and AI video generation</em><ul><li>Create and edit brand videos, reels and digital content.</li><li>Develop concepts, scripts and creative visual directions.</li><li>Run shoots and client coordination, and lead the video team to deadlines.</li></ul></div></div>
+    <div class="row"><div class="d">Jan 2024 – Dec 2024<br>Surat</div><div><h3>Dolphy</h3><em>Sales and marketing</em><ul><li>Handled client communication and marketing activities.</li><li>Supported business development with post designs and graphics.</li></ul></div></div>
+    <div class="row"><div class="d">Jan 2023 – Feb 2025<br>Surat</div><div><h3>Frameboxx</h3><em>Animation and VFX training</em><ul><li>Trained in animation, VFX, compositing, motion graphics and post-production.</li></ul></div></div>
+    <div class="row"><div class="d">2021<br>Surat</div><div><h3>Textile Times</h3><em>Video editor, under Green Chilly</em><ul><li>Edited news and green-screen video from raw footage to final output.</li></ul></div></div>
+  </div>
+  <div class="tools"><span>Adobe Premiere Pro</span><span>After Effects</span><span>Photoshop</span><span>Blender (basic)</span><span>AI video generation</span><span>Prompt engineering</span></div>
+</div></section>
+
+<section id="contact" class="contact"><span class="sf" data-sf></span><div class="wrap"><div class="in">
+  <h2>Have an idea? Let’s make it feel right.</h2>
+  <div class="l"><a href="tel:+919510397619">9510397619</a><a href="mailto:kinjalp3331@gmail.com">kinjalp3331@gmail.com</a><span>Valsad, Gujarat, India</span></div>
+</div></div></section>
+<footer><div class="wrap">© 2026 Kinjal Parmar</div></footer>
+
+<script>
+(function(){
+var NS='http://www.w3.org/2000/svg';
+function sunflower(){var s='<svg xmlns="'+NS+'" viewBox="-100 -100 200 200" aria-hidden="true">',i;
+for(i=0;i<24;i++)s+='<ellipse cx="0" cy="-58" rx="11" ry="36" fill="'+(i%2?'var(--petal2)':'var(--petal)')+'" transform="rotate('+(i*15)+')"/>';
+s+='<circle r="34" fill="var(--core)"/>';
+for(i=0;i<40;i++){var a=i*2.39996,r=4.4*Math.sqrt(i+1);s+='<circle cx="'+(r*Math.cos(a)).toFixed(1)+'" cy="'+(r*Math.sin(a)).toFixed(1)+'" r="1.6" fill="#a9772a"/>'}
+return s+'</svg>'}
+document.querySelectorAll('[data-sf]').forEach(function(e){e.innerHTML=sunflower()});
+
+var B=[
+{n:'Iranis Dental',own:1,d:"A dental clinic brand. I made every video on the profile, from concept and direction to editing, including the theatre ads shown in cinemas.",r:['Theatre ads','Video direction','Editing','Scripts'],t:'p',v:['DU5HB3-jIIM','DTIQvwFDeKR','DRuGQGODUkr','DPiRJ6NET5u','DPOtGWogTj2','DX9KEoWkYzn']},
+{n:'Mountain Rocko',own:1,d:"A construction products brand. I built its video content around Meta Ads and lead-generation concepts, told the product story through scripts, and used AI-generated visuals and video to show its value.",r:['Meta Ads','Lead generation','Product storytelling','Scriptwriting','AI video'],t:'p',v:['Deluf8OiSPv','Deb_OPqD-wZ','DeT57FcDcNq','Ddd-PPPgLS6','DaK-ghQo5sA','DapCLBoIg8y','De09aqaHNxn']},
+{n:'Nivarrah',own:1,d:"A brand content and campaign account. I handled moodboards and shoot direction, wrote the scripts, made Meta Ads content and explored AI-assisted visuals and campaign concepts.",r:['Moodboards','Shoot direction','Scripts','Meta Ads','AI visuals'],t:'reel',v:['DUQcbmWD3pr','DULQ62cFK2Z','DSUzbFGiHIt']},
+{n:'PodSphere',own:1,d:"An edtech brand. I wrote the scripts and content, created lead-generation creatives for Meta Ads and used AI-assisted storytelling to explain ideas clearly.",r:['Scriptwriting','Content writing','Meta Ads','AI storytelling'],t:'p',v:['DZr3X61D5La','DZIC9ZVDRKq']},
+{n:'Swarnabhumi Residency',own:1,d:"A real estate residency. I built the brand ideas and campaign narratives, wrote the content and used AI-assisted visuals to tell the property’s story.",r:['Brand building','Campaign narrative','Content writing','AI visuals'],t:'reel',v:['DfR6o7jjXzW','DfWRFwjnAEg']},
+{n:'Conical Gaufres',d:"A food and lifestyle brand. I planned shoots and moodboards, wrote scripts and content, and explored AI-generated visuals to bring fresh ideas into its reels.",r:['Shoot planning','Moodboards','Scripts','Content writing','AI visuals'],t:'reel',v:['DYMzalvjAS6','DXoq316gI2Z','DUs5B6nDFpp','DP3u_S1iZ0K','DP_SfIMCVi9','DMsAV7YsPcJ','DMzdr6lpPM7','DM7zb5EMcQq','DNOMHUNMCz8','DUqTEmNjKPO','DUr9G-tDBN5','DUu8So0jaQH','DRhQLFDieds','DOvi4EUCQLG','DNVCWubpQmM']},
+{n:'Nilkanth Group',d:"A real estate and corporate brand. I wrote scripts and content, developed brand storytelling and campaign concepts, and built AI-assisted visuals alongside them.",r:['Scripts','Brand storytelling','Campaign concepts','AI visuals'],t:'p',v:['Dc3CIC5E_IT','DcAlr11E_OR','DafK5LzDPrz','DZ6s6CNjUCh','DVtSCK1DKMY']},
+{n:'Avner',d:"Brand and campaign content, from idea to the final edit.",r:['Video editing','Content','Campaign'],t:'p',v:['Dd3cxrBDkTc','DdbTwUWOPxN','DdQOvOusK60','DdJTXZfiovZ']},
+{n:'Liberty Rainwear',d:"A jingle campaign taken from concept to final video: lyrics, music and AI-generated visuals, plus theatre ads.",r:['Jingle writing','Lyrics','Music','AI video','Final edit','Theatre ads'],m:[{y:'ITzQEmEHIUQ'},{t:'reel',id:'DbKkR8LANOE'}]}
+];
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;io.unobserve(e.target);var f=document.createElement('iframe');f.src=e.target.dataset.src;f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.title=e.target.dataset.t+' video';e.target.appendChild(f)})},{rootMargin:'400px'});
+B.forEach(function(b){
+ var it=b.m||b.v.map(function(id){return{t:b.t,id:id}});
+ var s=document.createElement('div');s.className='brand'+(b.own?' own':'');
+ s.innerHTML='<div class="bh"><div><h4>'+b.n+' <span class="tag">Made by me</span></h4><p>'+b.d+'</p><div class="roles">'+(b.r||[]).map(function(x){return'<span>'+x+'</span>'}).join('')+'</div></div><div class="arrows"><button class="arr" aria-label="Previous videos">←</button><button class="arr" aria-label="Next videos">→</button></div></div><div class="rail"></div>';
+ var r=s.querySelector('.rail'),a=s.querySelectorAll('.arr');
+ a[0].onclick=function(){r.scrollBy({left:-r.clientWidth*.8,behavior:'smooth'})};
+ a[1].onclick=function(){r.scrollBy({left:r.clientWidth*.8,behavior:'smooth'})};
+ it.forEach(function(x){
+  var c=document.createElement('div');c.className='card'+(x.y?' yt':'');
+  c.innerHTML='<div class="stage'+(x.y?' yt':'')+'"></div>';
+  var st=c.firstChild;st.dataset.src=x.y?'https://www.youtube.com/embed/'+x.y:'https://www.instagram.com/'+x.t+'/'+x.id+'/embed/';st.dataset.t=b.n;
+  io.observe(st);r.appendChild(c)});
+ document.getElementById(b.own?'g1':'g2').appendChild(s)});
+})();
+</script>
+</body>
+</html>
